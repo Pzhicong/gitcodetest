@@ -8,6 +8,8 @@
 命令行 : $ git push origin --delete <BranchName>
 4. 合并分支
 git merge dev
+5. 切换远程分支 
+git checkout -b second-period origin/second-period
 
 
 git 提交
