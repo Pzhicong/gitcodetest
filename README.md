@@ -12,9 +12,3 @@ git merge dev
 git checkout -b second-period origin/second-period
 6. git fetch
 7. git branch -va
-
-
-git 提交
-git npm run dev
-github 提交
-github hubhub
