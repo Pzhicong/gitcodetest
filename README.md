@@ -10,6 +10,8 @@
 git merge dev
 5. 切换远程分支 
 git checkout -b second-period origin/second-period
+6. git fetch
+7. git branch -va
 
 
 git 提交
