@@ -12,3 +12,8 @@ git merge dev
 git checkout -b second-period origin/second-period
 6. git fetch
 7. git branch -va
+8. 打tag
+git tag -a v1.4 -m 'master'
+9. 提交tag到远程
+git push origin v1.5
+git push origin --tags  一次推送所有本地新增的标签
