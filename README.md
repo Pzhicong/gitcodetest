@@ -21,3 +21,9 @@ git push origin --tags  一次推送所有本地新增的标签
 10. 目前有两种查看文件修改记录方法:
 一、git blame filename + git show commit-id
 二、git log  filename + git show commit-id
+
+11. fork后怎么操作 ，同步别人的代码
+git remote add other https://github.com/lcbhkjzw/react-mobx.git
+git fetch other
+git pull other redux
+git remote -v
